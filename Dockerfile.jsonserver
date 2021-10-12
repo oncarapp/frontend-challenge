@@ -1,0 +1,8 @@
+FROM node:14.17.4
+WORKDIR /usr/src/app
+COPY package.json ./
+RUN npm install json-server
+COPY db.json ./
+EXPOSE 8081
+USER node
+CMD ["./node_modules/.bin/json-server", "--watch", "db.json", "--port", "8081", "--host", "0.0.0.0"]

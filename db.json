@@ -1,40 +1,41 @@
 {
+  "favorites": [],
   "boards": [
     {
+      "id": "79c5de61-0c71-4e80-96a3-eaca201d3cbb",
       "createdAt": "2021-10-03T23:35:07.308Z",
       "name": "Design System",
+      "category": "UX/UI",
       "columns": [
         {
+          "id": "25e6489f-86ae-4f62-9157-83176834c9c2",
+          "createdAt": "2021-10-12T05:03:18-03:00",
+          "name": "Doing",
+          "position": 2,
+          "cards": [
+            {
+              "createdAt": "2021-10-04T09:26:19.408Z",
+              "name": "Topbar Feature",
+              "description": null,
+              "position": 0,
+              "priority": [
+                "medium"
+              ],
+              "tags": [
+                "Feature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "68cb6a0d-9cbb-4d08-bf7e-2e121359b951",
           "name": "To Do",
           "position": 0,
-          "cards": [
-            {
-              "createdAt": "2021-10-04T09:26:19.408Z",
-              "name": "Button component",
-              "description": "Create button component",
-              "position": 0
-            },
-            {
-              "createdAt": "2021-10-04T09:26:19.408Z",
-              "name": "Redesign white label",
-              "description": null,
-              "position": 1
-            }
-          ]
+          "cards": []
         },
         {
-          "name": "Doing",
-          "position": 1,
-          "cards": [
-            {
-              "createdAt": "2021-10-04T09:26:19.408Z",
-              "name": "Text Field",
-              "description": null,
-              "position": 1
-            }
-          ]
-        },
-        {
+          "id": "43e0f5f6-16d0-46fa-bf9c-c57def2b5e56",
+          "createdAt": "2021-10-11T19:32:05-03:00",
           "name": "Done",
           "position": 2,
           "cards": [
@@ -42,12 +43,128 @@
               "createdAt": "2021-10-04T09:26:19.408Z",
               "name": "Radio button",
               "description": null,
-              "position": 1
+              "position": 0,
+              "priority": [
+                "low"
+              ],
+              "tags": [
+                "UX/UI"
+              ]
             }
           ]
         }
-      ],
-      "id": "1"
+      ]
+    },
+    {
+      "id": "79c5de61-0c71-4e80-96a3-eaca201d3cbc",
+      "createdAt": "2021-10-03T23:35:07.308Z",
+      "name": "Backend Development",
+      "category": "Backend",
+      "columns": [
+        {
+          "id": "68cb6a0d-9cbb-4d08-bf7e-2e121359b951",
+          "name": "To Do",
+          "position": 0,
+          "cards": [
+            {
+              "createdAt": "2021-10-04T09:26:19.408Z",
+              "name": "Database modeling",
+              "description": null,
+              "position": 0,
+              "priority": [
+                "high"
+              ],
+              "tags": [
+                "DB",
+                "Modeling"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "25e6489f-86ae-4f62-9157-83176834c9c2",
+          "createdAt": "2021-10-12T05:03:18-03:00",
+          "name": "Doing",
+          "position": 2,
+          "cards": [
+            {
+              "createdAt": "2021-10-04T09:26:19.408Z",
+              "name": "Create User Controller",
+              "description": null,
+              "position": 0,
+              "priority": [
+                "medium"
+              ],
+              "tags": [
+                "Feature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "43e0f5f6-16d0-46fa-bf9c-c57def2b5e56",
+          "createdAt": "2021-10-11T19:32:05-03:00",
+          "name": "Done",
+          "position": 2,
+          "cards": []
+        }
+      ]
+    },
+    {
+      "id": "79c5de61-0c71-4e80-96a3-eaca201d3cbd",
+      "createdAt": "2021-10-03T23:35:07.308Z",
+      "name": "Marketing & Business",
+      "category": "Marketing",
+      "columns": [
+        {
+          "id": "68cb6a0d-9cbb-4d08-bf7e-2e121359b951",
+          "name": "To Do",
+          "position": 0,
+          "cards": [
+            {
+              "createdAt": "2021-10-04T09:26:19.408Z",
+              "name": "New advertisings",
+              "description": null,
+              "position": 0,
+              "priority": [
+                "low"
+              ],
+              "tags": [
+                "Google ADS",
+                "Facebook ADS"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "25e6489f-86ae-4f62-9157-83176834c9c2",
+          "createdAt": "2021-10-12T05:03:18-03:00",
+          "name": "Doing",
+          "position": 2,
+          "cards": [
+            {
+              "createdAt": "2021-10-04T09:26:19.408Z",
+              "name": "Test A/B",
+              "description": null,
+              "position": 0,
+              "priority": [
+                "high"
+              ],
+              "tags": [
+                "Ads",
+                "Strategies"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "43e0f5f6-16d0-46fa-bf9c-c57def2b5e56",
+          "createdAt": "2021-10-11T19:32:05-03:00",
+          "name": "Done",
+          "position": 2,
+          "cards": []
+        }
+      ]
     }
   ]
 }
