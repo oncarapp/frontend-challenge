@@ -1,0 +1,66 @@
+{
+  "boards": [
+    {
+      "id": "79c5de61-0c71-4e80-96a3-eaca201d3cbb",
+      "createdAt": "2021-10-03T23:35:07.308Z",
+      "name": "Design System",
+      "category": "UI/UX",
+      "columns": [
+        {
+          "id": "43e0f5f6-16d0-46fa-bf9c-c57def2b5e56",
+          "name": "To Do",
+          "position": 0,
+          "cards": [
+            {
+              "createdAt": "2021-10-04T09:26:19.408Z",
+              "name": "Text Field",
+              "description": null,
+              "position": 1
+            },
+            {
+              "createdAt": "2021-10-04T09:26:19.408Z",
+              "name": "Redesign white label",
+              "description": null,
+              "position": 1,
+              "tags": [
+                "Labels",
+                "Images"
+              ],
+              "priority": "medium"
+            }
+          ]
+        },
+        {
+          "id": "68cb6a0d-9cbb-4d08-bf7e-2e121359b951",
+          "name": "Doing",
+          "position": 1,
+          "cards": [
+            {
+              "createdAt": "2021-10-04T09:26:19.408Z",
+              "name": "Button component",
+              "description": "Create button component",
+              "position": 0,
+              "tags": [
+                "UX"
+              ],
+              "priority": "low"
+            }
+          ]
+        },
+        {
+          "id": "0f7198bf-6508-4b87-9568-5aab4e081783",
+          "name": "Done",
+          "position": 2,
+          "cards": [
+            {
+              "createdAt": "2021-10-04T09:26:19.408Z",
+              "name": "Radio button",
+              "description": null,
+              "position": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
